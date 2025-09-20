@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100mm" height="20mm" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+  <text x="50" y="15" font-family="Arial" font-size="12" text-anchor="middle" fill="black">HELLO WORLD</text>
+</svg>

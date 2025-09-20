@@ -1,0 +1,27 @@
+{
+  "tool": {
+    "type": "V-bit",
+    "angle": "60°",
+    "diameter": "0.25in",
+    "flutes": 1
+  },
+  "speeds_feeds": {
+    "spindle_speed": "12000 RPM",
+    "feed_rate": "30 IPM",
+    "plunge_rate": "10 IPM"
+  },
+  "cut_parameters": {
+    "depth_per_pass": "0.01in",
+    "total_depth": "0.02in",
+    "stepover": "40%"
+  },
+  "material": {
+    "type": "Soft Wood",
+    "thickness": "0.5in",
+    "hardness": "Low"
+  },
+  "safety": {
+    "min_retract_height": "0.1in",
+    "safe_z": "0.5in"
+  }
+}
