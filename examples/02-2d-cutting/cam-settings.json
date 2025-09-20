@@ -1,0 +1,34 @@
+{
+  "tool": {
+    "type": "End Mill",
+    "diameter": "0.125in",
+    "flutes": 2,
+    "material": "Carbide"
+  },
+  "speeds_feeds": {
+    "spindle_speed": "18000 RPM",
+    "feed_rate": "40 IPM",
+    "plunge_rate": "15 IPM"
+  },
+  "cut_parameters": {
+    "depth_per_pass": "0.04in",
+    "total_depth": "0.13in",
+    "stepover": "50%",
+    "finish_passes": 1
+  },
+  "material": {
+    "type": "Plywood",
+    "thickness": "0.125in",
+    "hardness": "Medium"
+  },
+  "workholding": {
+    "method": "Clamps",
+    "tab_size": "0.1in",
+    "tab_count": "2-3 per part"
+  },
+  "toolpath_strategy": {
+    "type": "2D Contour",
+    "climb_milling": true,
+    "compensation": "Computer"
+  }
+}
